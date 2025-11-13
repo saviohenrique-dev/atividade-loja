@@ -1,34 +1,44 @@
 *{
-    background-color: black;
-    padding:0;
-    margin:0;
-}
-#banner{
-    height: 450px;
-    width: 750px;
-}
-li a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 20px;
-
-
-
+    background-color: #1a1a1a;
+    padding: 0;
+    margin: 0;
 }
 
-
+.banner{
+   height: 450px; 
+   width: 750px; 
+   background-image: url(./assents/banner.png);
+   background-size: cover;
+}
 ul{
-    display: flex;/*ativa a propriedade de alinhamento*/
-    flex-direction: row; /*coloca os elementos na horizontal*/
-    
-
+    display: flex;/*Ativa a propriedade de alinhamento */
+    flex-direction:row; /*Coloca os elementos na horizontal*/
+}
+  
+li a{
+text-decoration: none;
+color: #ffffff;
+font-size: 20px;
+padding: 20px;
 }
 li{
-    list-style: none; /*remova os pontos das listas*/ 
+    list-style: none;/*Remove os pontos das listas*/
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 #logo{
-height: 100px;
-width: 100px;
+      height: 100px;
+      width: 100px;
+}
 
+.bi{
+
+    font-size: 40px;
+    color: #4c544c;
+    align-items: center;
+    justify-content: space-between;
 }
