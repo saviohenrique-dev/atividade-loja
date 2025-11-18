@@ -71,10 +71,13 @@ color: #4c544c;
     color: #ffffff;
     font-size: 19px;
     background-color: #333333;
+    margin: 30px;
  }
 
  .banner-estrutura{
     width: 220px;
+    padding: 30px;
+
  }
 
  .section-banner{
@@ -82,13 +85,54 @@ color: #4c544c;
     justify-content: center;
 
  }
-
-
-.container {
-    padding: 20px;       /* afasta o texto da borda */
+.titulo{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+.estrutura-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
-button {
-    display: block;      
-    margin: 30px auto 0; /* centraliza e afasta para baixo */
+.produtos{
+    height: 380x;
+    width: 200px;
+}
+
+.valor{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.card-texto{
+    display: flex;
+    justify-content: center;
+  
+}
+.card{
+     width: 200px;
+     height: 430px;
+}
+
+.cores{
+    height: 20px;
+    width: 15px;
+    border-radius: 150px;
+}
+
+
+.vermelho{
+    background-color: red
+
+}
+
+.azul{
+    background-color: blue;
+
+}
+.amarelo{
+    background-color: yellow;
 }
