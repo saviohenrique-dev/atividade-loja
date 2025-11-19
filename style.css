@@ -110,6 +110,8 @@ color: #4c544c;
 .card-texto{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   
 }
 .card{
@@ -118,9 +120,11 @@ color: #4c544c;
 }
 
 .cores{
-    height: 20px;
+    height: 15px;
     width: 15px;
-    border-radius: 150px;
+    border-radius: 100%;
+    padding: 5px;
+
 }
 
 
@@ -135,4 +139,22 @@ color: #4c544c;
 }
 .amarelo{
     background-color: yellow;
+}
+.branco{
+    background-color: #ffffff;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
 }
