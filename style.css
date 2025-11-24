@@ -1,125 +1,132 @@
-*{
-    padding: 0;
-    margin: 0;
-}*{
-    
-padding: 0%;
-margin: 0%;
+* {
+
+    padding: 0%;
+    margin: 0%;
 }
 
 
-body{
+body {
     background-color: #1a1a1a;
 }
 
-.banner{
-height: 450px;
-width: 850px;
-background-image: url("./assents/Banner.png"); /*ele adiciona uma imagem como fundo*/
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-align-items: center;
+.banner {
+    height: 450px;
+    width: 850px;
+    background-image: url("./assents/Banner.png");
+    /*ele adiciona uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
-li a{
+li a {
 
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
     padding: 25px;
- }
-
-ul{
-    display: flex; /*ativa a propriedade de alinhamento*/
-    flex-direction: row; /*coloca os elementos na horizontal*/
 }
 
-li{
-list-style: none; /*remove os pontos das lista*/
+ul {
+    display: flex;
+    /*ativa a propriedade de alinhamento*/
+    flex-direction: row;
+    /*coloca os elementos na horizontal*/
 }
 
-nav{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
+li {
+    list-style: none;
+    /*remove os pontos das lista*/
 }
 
- #logo{
-height: 100px;
-width: 100px;
- }
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
- .bi{
-font-size: 40px;
-color: #4c544c;
+#logo {
+    height: 100px;
+    width: 100px;
+}
 
- }
+.bi {
+    font-size: 40px;
+    color: #4c544c;
 
- .texto-banner{
+}
+
+.texto-banner {
     color: #ffffff;
-   font-size: 25px;
-   
- }
+    font-size: 25px;
 
- .btn{
+}
+
+.btn {
     height: 45px;
     width: 115px;
-    border-radius: 55px;/*Deixa a  borda redonda*/
-    border: none; /*Serve para remover a borda*/
+    border-radius: 55px;
+    /*Deixa a  borda redonda*/
+    border: none;
+    /*Serve para remover a borda*/
     color: #ffffff;
     font-size: 19px;
     background-color: #333333;
     margin: 30px;
- }
+}
 
- .banner-estrutura{
+.banner-estrutura {
     width: 220px;
     padding: 30px;
 
- }
+}
 
- .section-banner{
+.section-banner {
     display: flex;
     justify-content: center;
 
- }
-.titulo{
+}
+
+.titulo {
     color: #ffffff;
     font-weight: bold;
     font-size: 35px;
-    
+
 }
-.estrutura-titulo{
+
+.estrutura-titulo {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.produtos{
+.produtos {
     height: 380x;
     width: 200px;
 }
 
-.valor{
+.valor {
     color: #ffffff;
     font-weight: bold;
     font-size: 30px;
 }
-.card-texto{
+
+.card-texto {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  
-}
-.card{
-     width: 200px;
-     height: 430px;
+
 }
 
-.cores{
+.card {
+    width: 200px;
+    height: 430px;
+}
+
+.cores {
     height: 15px;
     width: 15px;
     border-radius: 100%;
@@ -128,33 +135,58 @@ color: #4c544c;
 }
 
 
-.vermelho{
+.vermelho {
     background-color: red
-
 }
 
-.azul{
+.azul {
     background-color: blue;
 
 }
-.amarelo{
+
+.amarelo {
     background-color: yellow;
 }
-.branco{
+
+.branco {
     background-color: #ffffff;
 }
 
-.caixa-cores{
+.caixa-cores {
     display: flex;
     flex-direction: row;
     padding: 5px;
 
-    
+
 }
-.carousel{
+
+.carousel {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 20px;
+}
+
+.xbox-estrutura {
+    background-image: url("./assents/x-box.png");
+    height: 450px;
+    width: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.texto-xbox{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+
+.banner-xbox{
+    display: flex;
+    justify-content: end;
+    
 }
