@@ -190,3 +190,13 @@ nav {
     justify-content: end;
     
 }
+
+.xbox-caixa{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin: 20px;
+}
